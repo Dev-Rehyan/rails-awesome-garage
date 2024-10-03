@@ -4,7 +4,6 @@ class CarsController < ApplicationController
   end
 
   def show
-    raise
     @car = Car.find(params[:id])
   end
 end
