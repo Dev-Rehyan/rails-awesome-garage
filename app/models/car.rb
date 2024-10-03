@@ -1,7 +1,7 @@
 class Car < ApplicationRecord
   belongs_to :owner
 
-  has many :favorites
+  has_many :favorites
   has_many :reviews
 
   validates :brand, presence: true
